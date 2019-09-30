@@ -9,8 +9,7 @@ array.pop(string)
 end
 def pop_with_args
   return array.pop(2)
-  
-end
+  end
 def using_shift
   
 end
