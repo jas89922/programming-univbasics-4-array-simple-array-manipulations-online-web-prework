@@ -7,8 +7,8 @@ end
 def using_pop
 array.pop
 end
-def pop_with_args
-  array.pop
+def pop_with_args(array)
+  array.pop(array)
   end
 def using_shift
   array.shift
