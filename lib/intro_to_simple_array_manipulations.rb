@@ -5,24 +5,24 @@ def using_unshift(array, string)
   array.unshift(string)
 end
 def using_pop(array)
-array.pop
+array.pop(array)
 end
 def pop_with_args(array)
-  array.pop(array)
+  array.pop(2)
   end
-def using_shift
-  array.shift
+def using_shift(array)
+  array.shift(0)
 end
-def shift_with_args
+def shift_with_args(array)
   array.shift(2)
 end
 def using_concat(array1, array2)
   array1.concat(array2)
 end
-def using_insert
-  array.insert
+def using_insert(array)
+  array.insert(4)
 end
-def using_uniq
+def using_uniq(array)
   array.uniq
 end
 def using_flatten
